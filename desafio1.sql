@@ -99,19 +99,19 @@ USE SpotifyClone;
   INSERT INTO SpotifyClone.seguindo_artistas (usuario_id, artista_id)
   VALUES
     (1, 1),
-    (1, 6),
     (1, 2),
+    (1, 3),
     (2, 1),
-    (2, 2),
-    (3, 6),
-    (4, 3),
-    (5, 4),
+    (2, 3),
+    (3, 2),
+    (4, 4),
     (5, 5),
-    (6, 5),
+    (5, 6),
+    (6, 6),
     (6, 1),
-    (7, 5),
-    (9, 2),
-    (10, 6);
+    (7, 6),
+    (9, 3),
+    (10, 2);
     
     
   INSERT INTO SpotifyClone.albuns (album_name, album_lancamento, artista_id)
@@ -130,13 +130,13 @@ USE SpotifyClone;
     ('BREAK MY SOUL', 279, 1, 1),
     ('VIRGO’S GROOVE', 369, 1, 1),
     ('ALIEN SUPERSTAR', 116, 1, 1),
-    ('Don’t Stop Me Now', 203, 2, 6),
-    ('Under Pressure', 152, 3, 6),
-    ('Como Nossos Pais', 105, 4, 2),
-    ('O Medo de Amar é o Medo de Ser Livre', 207, 5, 2),
-    ('Samba em Paris', 267, 6, 3),
-    ('The Bard’s Song', 244, 7, 4),
-    ('Feeling Good', 100, 8, 5);
+    ('Don’t Stop Me Now', 203, 2, 2),
+    ('Under Pressure', 152, 3, 2),
+    ('Como Nossos Pais', 105, 4, 3),
+    ('O Medo de Amar é o Medo de Ser Livre', 207, 5, 3),
+    ('Samba em Paris', 267, 6, 4),
+    ('The Bard’s Song', 244, 7, 5),
+    ('Feeling Good', 100, 8, 6);
     
   INSERT INTO SpotifyClone.historicos_reproducao (usuario_id, cancao_id, historico_data)
   VALUES
