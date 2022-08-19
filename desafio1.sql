@@ -92,7 +92,7 @@ USE SpotifyClone;
     ('Beyoncé'),
     ('Queen'),
     ('Elis Regina'),
-    ('Becu Exu do Blues'),
+    ('Baco Exu do Blues'),
     ('Blind Guardian'),
     ('Nina Simone');
     
